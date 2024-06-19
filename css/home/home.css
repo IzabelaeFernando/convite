@@ -1,0 +1,73 @@
+.home{
+  text-align: center;
+  padding-top:120px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.home::after{
+  content: "";
+  display: block;
+  width: 200px;
+  height: 182px;
+  top: 0;
+  left: 0;
+  background-image: url("../../img/flor-esq.png");
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+
+
+.casamento{
+padding-bottom: 20px;
+
+}
+
+
+
+
+.nomes{
+  padding-bottom: 20px;
+  color: #D2BCBE;
+  text-transform: uppercase;
+}
+
+.envelope{
+width: 100%;
+box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+background-color: #D2BCBE;
+}
+
+.link_envelope{
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.data{
+
+display: flex;
+align-items: center;
+justify-content: center;
+padding-left: 20px;
+padding-right: 20px;
+color:#D2BCBE ;
+
+}
+
+.data img{
+  width: 100%;
+  max-width: 450px;
+}
+
+
+.dia{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
