@@ -25,7 +25,7 @@ window.SimpleAnime = class {
 new SimpleAnime();
 
 document.querySelector('.modal-content .copy-button').addEventListener('click', function () {
-  var pixKey = '77988670084'; // Substitua pelo valor da sua chave Pix
+  var pixKey = '01239614241'; // Substitua pelo valor da sua chave Pix
   var textArea = document.createElement('textarea');
   textArea.value = pixKey;
   document.body.appendChild(textArea);
@@ -41,22 +41,7 @@ document.querySelector('.modal-content .copy-button').addEventListener('click', 
   }, 2000);
 });
 
-document.querySelector('.modal-content .copy-button2').addEventListener('click', function () {
-  var pixKey = '77981348438'; // Substitua pelo valor da sua chave Pix
-  var textArea = document.createElement('textarea');
-  textArea.value = pixKey;
-  document.body.appendChild(textArea);
-  textArea.select();
-  document.execCommand('copy');
-  document.body.removeChild(textArea);
 
-  var copyMessage = document.getElementById('copy-message');
-  copyMessage.classList.remove('hidden');
-
-  setTimeout(function () {
-    copyMessage.classList.add('hidden');
-  }, 2000);
-});
 
 // Obter o modal
 var modal = document.getElementById("myModal");
